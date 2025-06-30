@@ -1,9 +1,17 @@
 # CODTECH_task3
 
 "NAME" : LINGAM SREE KEERTHI
+
+
 "COMPANY" : CODTECH IT SOLUTIONS
+
+
 "ID" : CT04DF1246
+
+
 "PROJECT BASED ON" : IOT
+
+
 "PROJECT MENTOR" : NEELA SANTOSH
 
 
@@ -47,3 +55,8 @@ void loop() {
   }
   delay(100);  // reduce CPU usage
 }
+
+OUTPUT ROUGH DESIGN
+
+
+https://github.com/SreeKeerthi05/CODTECH_task3/issues/1#issue-3187613519
