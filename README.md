@@ -1,1 +1,49 @@
 # CODTECH_task3
+
+"NAME" : LINGAM SREE KEERTHI
+"COMPANY" : CODTECH IT SOLUTIONS
+"ID" : CT04DF1246
+"PROJECT BASED ON" : IOT
+"PROJECT MENTOR" : NEELA SANTOSH
+
+
+OVERVIEW OF THE PROJECT:
+
+
+Components:
+
+Arduino Uno
+
+PIR motion sensor
+
+LED (to simulate “capture” indicator)
+
+220 Ω resistor
+
+Breadboard & wires
+
+
+
+#CODE USING TINKERCAD
+
+const int pirPin = 2;
+const int ledPin = 13;
+
+void setup() {
+  pinMode(pirPin, INPUT);
+  pinMode(ledPin, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  bool motion = digitalRead(pirPin);
+  if (motion) {
+    digitalWrite(ledPin, HIGH);
+    Serial.println("Motion detected! Capturing image...");
+    delay(1000);  // simulate snapshot delay
+    Serial.println("💾 Image captured and alert sent!");
+  } else {
+    digitalWrite(ledPin, LOW);
+  }
+  delay(100);  // reduce CPU usage
+}
