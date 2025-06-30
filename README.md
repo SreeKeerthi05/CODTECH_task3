@@ -52,21 +52,35 @@ const int pirPin = 2;
 const int ledPin = 13;
 
 void setup() {
+
   pinMode(pirPin, INPUT);
+  
   pinMode(ledPin, OUTPUT);
+  
   Serial.begin(9600);
+  
 }
 
 void loop() {
+
   bool motion = digitalRead(pirPin);
+  
   if (motion) {
+  
     digitalWrite(ledPin, HIGH);
+    
     Serial.println("Motion detected! Capturing image...");
+    
     delay(1000);  // simulate snapshot delay
+    
     Serial.println("💾 Image captured and alert sent!");
+    
   } else {
+  
     digitalWrite(ledPin, LOW);
+    
   }
+  
   delay(100);  // reduce CPU usage
 }
 
