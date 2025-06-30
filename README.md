@@ -18,6 +18,15 @@
 OVERVIEW OF THE PROJECT:
 
 
+To build an automated security system that:
+
+Detects motion using sensors (e.g., PIR sensor),
+
+Captures images using a camera (e.g., webcam or Pi camera),
+
+Sends instant alerts (via email, buzzer, or app notification).
+
+
 Components:
 
 Arduino Uno
