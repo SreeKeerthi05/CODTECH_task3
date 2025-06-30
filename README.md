@@ -27,7 +27,7 @@ Captures images using a camera (e.g., webcam or Pi camera),
 Sends instant alerts (via email, buzzer, or app notification).
 
 
-Components:
+COMPONENTS:
 
 Arduino Uno
 
