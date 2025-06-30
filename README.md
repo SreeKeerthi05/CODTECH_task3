@@ -12,13 +12,17 @@
 "PROJECT BASED ON" : IOT
 
 
+"DURATION" : 4 WEEKS
+
+
 "PROJECT MENTOR" : NEELA SANTOSH
 
 
 OVERVIEW OF THE PROJECT:
 
-
+An IoT Security System is a smart surveillance and protection system that uses sensors, cameras, and internet connectivity to monitor and secure homes, offices, or public spaces. It can detect intrusions, send real-time alerts, capture images or video, and allow remote access through smartphones or web apps.
 To build an automated security system that:
+
 
 Detects motion using sensors (e.g., PIR sensor),
 
